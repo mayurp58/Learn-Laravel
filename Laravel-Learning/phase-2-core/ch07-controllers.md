@@ -190,4 +190,6 @@ You can't visit them yet (no views) — that's Chapter 11. But the wiring is don
 2. What does `--api` do differently from `--resource`?
 3. How does Laravel know to inject `PostService` into your constructor?
 
+🔨 **Build it for real:** Apply this chapter to project P1 — see [`build/p1-bookmarks/ch07-build.md`](../build/p1-bookmarks/ch07-build.md).
+
 ➡️ Next: `ch08-middleware.md`

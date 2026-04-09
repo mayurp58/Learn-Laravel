@@ -130,4 +130,6 @@ CI3 had migrations but they were rarely used in real projects. Laravel migration
 2. Create a migration for `posts` with `title`, `body`, `slug`, `category_id` (foreign key), `published_at` nullable, timestamps.
 3. Run `php artisan migrate:fresh` and verify in phpMyAdmin.
 
+🔨 **Build it for real:** Apply this chapter to project P2 (Blog Platform) — see [`build/p2-blog/ch13-build.md`](../build/p2-blog/ch13-build.md). If you haven't started P2 yet, read [`build/p2-blog/00-spec.md`](../build/p2-blog/00-spec.md) and [`01-setup.md`](../build/p2-blog/01-setup.md) first.
+
 ➡️ Next: `ch14-seeders-factories.md`

@@ -117,4 +117,6 @@ CI's Query Builder is the closest analogue. Laravel's is more fluent and slightl
 
 Write a Query Builder query that returns the top 5 users by post count, including their name and post count.
 
+🔨 **Build it for real:** Apply this chapter to project P2 — see [`build/p2-blog/ch18-build.md`](../build/p2-blog/ch18-build.md).
+
 ➡️ Next: `ch19-transactions.md`

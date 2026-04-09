@@ -88,4 +88,6 @@ return response()->streamDownload(function () { echo $bigCsv; }, 'data.csv');
 2. What's the difference between `response()->download()` and `response()->file()`?
 3. What happens if you forget `return`?
 
+🔨 **Build it for real:** Apply this chapter to project P1 — see [`build/p1-bookmarks/ch10-build.md`](../build/p1-bookmarks/ch10-build.md).
+
 ➡️ Next: `ch11-blade.md`

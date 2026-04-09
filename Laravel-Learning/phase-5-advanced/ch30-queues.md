@@ -123,4 +123,6 @@ if ($event->exception !== null) { ... }
 2. Create `SendWelcomeEmail` job. Dispatch it from your registration flow.
 3. Run `php artisan queue:work` and watch it process.
 
+🔨 **Build it for real:** Apply this chapter to project P4 — see [`build/p4-projectly/ch30-build.md`](../build/p4-projectly/ch30-build.md).
+
 ➡️ Next: `ch31-scheduler.md`

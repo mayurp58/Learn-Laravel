@@ -73,4 +73,6 @@ foreach (User::cursor() as $user) { ... }
 
 Write a tinker snippet that creates a `User` and 3 `Posts` for them inside a transaction. Force an exception on the third post and confirm nothing was committed.
 
+🔨 **Build it for real:** Apply this chapter to project P2 — see [`build/p2-blog/ch19-build.md`](../build/p2-blog/ch19-build.md).
+
 ➡️ Next: `ch20-api-resources.md`

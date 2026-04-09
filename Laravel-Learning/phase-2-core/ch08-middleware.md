@@ -152,4 +152,6 @@ CI3 had hooks (`pre_controller`) which were a single global function. Laravel mi
 2. Where do you register middleware in Laravel 13?
 3. Name three pieces of work that belong in middleware.
 
+🔨 **Build it for real:** Apply this chapter to project P1 — see [`build/p1-bookmarks/ch08-build.md`](../build/p1-bookmarks/ch08-build.md).
+
 ➡️ Next: `ch09-validation.md`

@@ -8,27 +8,36 @@ A complete, text-based, mentor-style learning path designed for an experienced P
 
 ## How to Use This Material
 
+This roadmap has **two parallel tracks** that you follow together:
+
+- **Teaching track** (`phase-1-foundations/` → `phase-7-ecosystem/`) — concepts, syntax, isolated examples, hands-on micro-tasks. Read these first.
+- **Build track** (`build/`) — apply each chapter to a real, deployable project. Four projects span the whole roadmap. **By Phase 8 you'll have four deployed apps on GitHub.**
+
+For every teaching chapter that has a build counterpart, you'll see a 🔨 **Build it for real** pointer at the bottom — follow it to apply the chapter to your project before moving on.
+
 1. **Read chapters in order.** Each chapter builds on the previous one.
 2. **Do every "Hands-on Task"** at the end of each chapter. Reading without coding is wasted time.
-3. **Keep a personal notes file** as you go. Re-explaining things in your own words is the single highest-ROI study habit.
-4. **Don't skip the "Common Mistakes" sections** — they are the things interviewers love to test.
-5. **At the end of each Phase**, do the interview-question set in `interview/`.
-6. When you finish a Phase, build the corresponding mini-project in `projects/`.
+3. **Follow the 🔨 Build it for real pointer** at the end of each chapter — this is where the real learning happens.
+4. **Keep a personal notes file** as you go. Re-explaining things in your own words is the single highest-ROI study habit.
+5. **Don't skip the "Common Mistakes" sections** — they are the things interviewers love to test.
+6. **At the end of each Phase**, do the interview-question set in `interview/`.
+
+**Start here:** read `00-how-to-use.md` for the daily rhythm, then `build/README.md` to understand the four projects, then `build/ch00-prerequisites.md` to set up your tools.
 
 ---
 
 ## Roadmap Overview
 
-| Phase | Chapters | Focus | Mini Project |
+| Phase | Chapters | Focus | Build-track project |
 |---|---|---|---|
-| 1. Foundations | 1–4 | Composer, modern PHP, OOP/DI, Laravel setup | — |
-| 2. Laravel Core | 5–12 | Routing, controllers, middleware, validation, Blade | Task Manager |
-| 3. Eloquent & DB | 13–20 | Migrations, Eloquent, relationships, API resources | Blog Platform |
-| 4. Auth & APIs | 21–25 | Breeze, Sanctum, policies, REST APIs | — |
-| 5. Advanced | 26–36 | Container, providers, queues, events, cache, mail | — |
-| 6. Testing & Deploy | 37–41 | Pest, feature tests, deployment | — |
-| 7. Ecosystem | 42–44b | Livewire, Inertia, Filament, AI SDK (L13) | SaaS Starter |
-| 8. Job Prep | 45–49 | Resume, portfolio, interviews, negotiation | — |
+| 1. Foundations | 1–4 | Composer, modern PHP, OOP/DI, Laravel setup | (no project yet) |
+| 2. Laravel Core | 5–12 | Routing, controllers, middleware, validation, Blade | **P1 — Bookmarks** (`build/p1-bookmarks/`) |
+| 3. Eloquent & DB | 13–20 | Migrations, Eloquent, relationships, API resources | **P2 — Blog** (`build/p2-blog/`) |
+| 4. Auth & APIs | 21–25 | Breeze, Sanctum, policies, REST APIs | **P3 — Blog API** (extends P2; `build/p3-blog-api/`) |
+| 5. Advanced | 26–36 | Container, providers, queues, events, cache, mail | **P4 — Projectly** starts (`build/p4-projectly/`) |
+| 6. Testing & Deploy | 37–41 | Pest, feature tests, deployment | **P4 — Projectly** continues |
+| 7. Ecosystem | 42–44b | Livewire, Inertia, Filament, AI SDK (L13) | **P4 — Projectly** finishes |
+| 8. Job Prep | 45–49 | Resume, portfolio, interviews, negotiation | (use all 4 projects as portfolio) |
 
 ---
 
@@ -46,7 +55,8 @@ Laravel-Learning/
 ├── phase-6-testing-deploy/    ← Tests and deployment
 ├── phase-7-ecosystem/         ← Livewire, Inertia, Filament
 ├── phase-8-job-prep/          ← Resume + interview prep
-├── projects/                  ← 3 mini projects with full specs
+├── build/                     ← BUILD TRACK: 4 projects, one build file per chapter
+├── projects/                  ← Original 3 mini-project specs (kept for reference)
 ├── interview/                 ← Question banks per level
 └── resources/                 ← Cheat sheets and references
 ```

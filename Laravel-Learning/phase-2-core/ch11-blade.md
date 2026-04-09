@@ -189,4 +189,6 @@ CI views were just `<?php echo $title; ?>` — no escaping by default, no layout
 2. What's the difference between `@include` and `<x-...>` components?
 3. What does `@csrf` output?
 
+🔨 **Build it for real:** Apply this chapter to project P1 — see [`build/p1-bookmarks/ch11-build.md`](../build/p1-bookmarks/ch11-build.md).
+
 ➡️ Next: `ch12-sessions.md`

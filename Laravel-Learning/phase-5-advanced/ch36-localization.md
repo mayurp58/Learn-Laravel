@@ -48,4 +48,6 @@ This is a deep topic — when you need it, read the dedicated docs page. For now
 
 Make your task manager bilingual (English + Hindi). Add a language switcher.
 
-➡️ **End of Phase 5.** Move to Phase 6.
+🔨 **Build it for real:** Apply this chapter to project P4 — see [`build/p4-projectly/ch36-build.md`](../build/p4-projectly/ch36-build.md).
+
+➡️ **End of Phase 5.** Phase 6 (testing + deploy) continues to build on the **same P4 project** — don't retire it yet.

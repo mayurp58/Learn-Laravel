@@ -93,4 +93,6 @@ Laravel encrypts cookies by default.
 2. Why does `web.php` have CSRF but `api.php` doesn't?
 3. How do you exclude a webhook URL from CSRF?
 
-➡️ **End of Phase 2.** Now go build **Mini Project 1: Task Manager** — see `projects/01-task-manager.md`. Then move to Phase 3.
+🔨 **Build it for real:** Apply this chapter to project P1 — see [`build/p1-bookmarks/ch12-build.md`](../build/p1-bookmarks/ch12-build.md).
+
+➡️ **End of Phase 2.** Wrap up and deploy P1 by following [`build/p1-bookmarks/99-finish.md`](../build/p1-bookmarks/99-finish.md), then move to Phase 3 (which begins project P2 — Blog Platform).

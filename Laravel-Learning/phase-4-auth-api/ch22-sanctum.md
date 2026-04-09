@@ -90,4 +90,6 @@ if ($request->user()->tokenCan('posts:write')) { ... }
 3. Build `/api/posts` (auth-protected).
 4. Test with Postman: login → save token → use token in `Authorization: Bearer ...` header to call `/api/posts`.
 
+🔨 **Build it for real:** Apply this chapter to project P3 — see [`build/p3-blog-api/ch22-build.md`](../build/p3-blog-api/ch22-build.md).
+
 ➡️ Next: `ch23-policies.md`

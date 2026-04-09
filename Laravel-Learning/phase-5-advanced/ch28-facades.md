@@ -67,4 +67,6 @@ In *services / domain classes* that you want to be portable and unit-testable, p
 1. Use `Cache::remember(...)` to cache a "popular posts" query for 5 minutes.
 2. In another controller, achieve the same thing by injecting `\Illuminate\Contracts\Cache\Repository` in the constructor. Compare both styles.
 
+🔨 **Build it for real:** Apply this chapter to project P4 — see [`build/p4-projectly/ch28-build.md`](../build/p4-projectly/ch28-build.md).
+
 ➡️ Next: `ch29-events.md`

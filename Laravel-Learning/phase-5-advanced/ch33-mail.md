@@ -73,4 +73,6 @@ Or have the mailable implement `ShouldQueue`.
 
 Build a `WelcomeMail` and a `PasswordResetMail`. Use Mailtrap or Mailpit. Verify both render correctly.
 
+🔨 **Build it for real:** Apply this chapter to project P4 — see [`build/p4-projectly/ch33-build.md`](../build/p4-projectly/ch33-build.md).
+
 ➡️ Next: `ch34-storage.md`

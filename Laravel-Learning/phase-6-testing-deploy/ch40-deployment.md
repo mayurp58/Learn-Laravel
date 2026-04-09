@@ -60,4 +60,6 @@ You don't need to actually pay for a server today. But:
 1. Read Forge's documentation top to bottom (forge.laravel.com).
 2. Write a `deploy.sh` script for your blog project that runs the production checklist commands.
 
-➡️ **End of Phase 6.** Move to Phase 7.
+🔨 **Build it for real:** Apply this chapter to project P4 — see [`build/p4-projectly/ch40-build.md`](../build/p4-projectly/ch40-build.md). This is the chapter where Projectly first goes live in production.
+
+➡️ **End of Phase 6.** Move to Phase 7 — still the same P4 project.

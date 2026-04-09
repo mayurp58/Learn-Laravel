@@ -95,4 +95,6 @@ Cache::tags('users')->flush();    // wipe everything tagged 'users'
 
 Cache a "trending posts" query for 10 minutes. Then write a model observer on `Post` that flushes that cache key when any post is updated.
 
+🔨 **Build it for real:** Apply this chapter to project P4 — see [`build/p4-projectly/ch35-build.md`](../build/p4-projectly/ch35-build.md).
+
 ➡️ Next: `ch36-localization.md`

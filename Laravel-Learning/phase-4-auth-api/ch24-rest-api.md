@@ -90,4 +90,6 @@ Build a complete CRUD API for `posts`:
 
 Test every endpoint in Postman.
 
+🔨 **Build it for real:** Apply this chapter to project P3 — see [`build/p3-blog-api/ch24-build.md`](../build/p3-blog-api/ch24-build.md).
+
 ➡️ Next: `ch25-api-tokens.md`

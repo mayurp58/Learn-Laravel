@@ -69,4 +69,6 @@ Both are valid. Livewire for backend-heavy devs, Inertia for those comfortable w
 
 Install Breeze (Vue or React variant). Build a posts index page using Inertia.
 
+🔨 **Build it for real:** See [`build/p4-projectly/ch43-build.md`](../build/p4-projectly/ch43-build.md). Projectly is already built with Livewire (ch42), so the build file recommends *skimming* Inertia rather than rewriting — you should still understand it well enough for interviews.
+
 ➡️ Next: `ch44-filament.md`

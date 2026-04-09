@@ -96,4 +96,6 @@ Returning `null` means "let normal checks run." Returning `true` short-circuits.
 
 Create a `PostPolicy`. Only the post's author can update or delete it. Wire it in `PostController`.
 
+🔨 **Build it for real:** Apply this chapter to project P3 — see [`build/p3-blog-api/ch23-build.md`](../build/p3-blog-api/ch23-build.md).
+
 ➡️ Next: `ch24-rest-api.md`

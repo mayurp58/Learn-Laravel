@@ -136,4 +136,6 @@ $post->update(['title' => 'Updated!']);
 $post->fresh();
 ```
 
+🔨 **Build it for real:** Apply this chapter to project P2 — see [`build/p2-blog/ch15-build.md`](../build/p2-blog/ch15-build.md).
+
 ➡️ Next: `ch16-relationships.md`

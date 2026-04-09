@@ -79,4 +79,6 @@ class PaymentServiceProvider extends ServiceProvider
 1. **Resolving services in `register()`** — those services may not be bound yet.
 2. **Putting too much logic in `AppServiceProvider`** — split into focused providers.
 
+🔨 **Build it for real:** Apply this chapter to project P4 — see [`build/p4-projectly/ch27-build.md`](../build/p4-projectly/ch27-build.md).
+
 ➡️ Next: `ch28-facades.md`

@@ -98,4 +98,6 @@ For most internal/mobile APIs the regular `JsonResource` shown above is still fi
 
 Create a `PostResource` and a `UserResource` that nests posts. Test with Postman.
 
-➡️ **End of Phase 3.** Build **Mini Project 2: Blog Platform** (`projects/02-blog.md`). Then Phase 4.
+🔨 **Build it for real:** Apply this chapter to project P2 — see [`build/p2-blog/ch20-build.md`](../build/p2-blog/ch20-build.md).
+
+➡️ **End of Phase 3.** Wrap up P2 by following [`build/p2-blog/99-finish.md`](../build/p2-blog/99-finish.md). Phase 4 will *extend* this same blog with an API (project P3) — keep the repo open.

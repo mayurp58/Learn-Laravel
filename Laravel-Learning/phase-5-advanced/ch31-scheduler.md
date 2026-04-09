@@ -55,4 +55,6 @@ Schedule::command('emails:digest')
 2. Schedule it to run daily at 3 AM.
 3. Test by running `php artisan schedule:test`.
 
+🔨 **Build it for real:** Apply this chapter to project P4 — see [`build/p4-projectly/ch31-build.md`](../build/p4-projectly/ch31-build.md).
+
 ➡️ Next: `ch32-notifications.md`

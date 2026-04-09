@@ -66,4 +66,6 @@ Then `Storage::disk('s3')->put(...)` and everything just works.
 
 Build an `/avatar` upload form. Show the avatar after upload using `Storage::url()`.
 
+🔨 **Build it for real:** Apply this chapter to project P4 — see [`build/p4-projectly/ch34-build.md`](../build/p4-projectly/ch34-build.md).
+
 ➡️ Next: `ch35-cache.md`

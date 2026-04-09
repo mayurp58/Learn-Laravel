@@ -74,4 +74,6 @@ Now this listener runs in a background worker instead of blocking the request.
 
 Create a `PostPublished` event. Add two listeners: one that logs to a file, one that pretends to send a notification. Fire the event in `PostController@update` when `published_at` changes from null to a date.
 
+🔨 **Build it for real:** Apply this chapter to project P4 — see [`build/p4-projectly/ch29-build.md`](../build/p4-projectly/ch29-build.md).
+
 ➡️ Next: `ch30-queues.md`

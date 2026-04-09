@@ -54,4 +54,6 @@ Use `husky` (via npm) or a simple `.git/hooks/pre-commit`:
 ./vendor/bin/pint --test && ./vendor/bin/phpstan analyse && php artisan test
 ```
 
+🔨 **Build it for real:** Apply this chapter to project P4 — see [`build/p4-projectly/ch39-build.md`](../build/p4-projectly/ch39-build.md).
+
 ➡️ Next: `ch40-deployment.md`

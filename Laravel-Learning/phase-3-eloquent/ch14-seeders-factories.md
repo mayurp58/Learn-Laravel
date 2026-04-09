@@ -88,4 +88,6 @@ php artisan migrate:fresh --seed       # rebuild + seed
 3. In `DatabaseSeeder`, create 5 categories, 10 users, and 50 posts.
 4. Run `migrate:fresh --seed` and confirm in phpMyAdmin.
 
+🔨 **Build it for real:** Apply this chapter to project P2 — see [`build/p2-blog/ch14-build.md`](../build/p2-blog/ch14-build.md).
+
 ➡️ Next: `ch15-eloquent-basics.md`

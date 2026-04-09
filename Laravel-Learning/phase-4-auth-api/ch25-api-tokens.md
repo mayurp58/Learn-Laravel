@@ -55,4 +55,6 @@ Sanctum doesn't ship refresh tokens. If you need them, build manually or use Pas
 
 Modify the `/api/login` endpoint to accept a `device_name` parameter and use it as the token name. Build `/api/logout-everywhere` that revokes all of a user's tokens.
 
-➡️ **End of Phase 4.** Move to Phase 5.
+🔨 **Build it for real:** Apply this chapter to project P3 — see [`build/p3-blog-api/ch25-build.md`](../build/p3-blog-api/ch25-build.md).
+
+➡️ **End of Phase 4.** Wrap up P3 by following [`build/p3-blog-api/99-finish.md`](../build/p3-blog-api/99-finish.md). Then move to Phase 5, which begins **project P4 — Projectly** (the multi-tenant SaaS centerpiece).

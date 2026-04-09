@@ -109,4 +109,6 @@ Laravel 13 fixes this so that nullable defaults are respected — the call above
 4. Inject the interface into a controller. Confirm it works.
 5. Switch the binding to `EmailNotifier`. The controller code doesn't change.
 
+🔨 **Build it for real:** Apply this chapter to project P4 (Projectly) — see [`build/p4-projectly/ch26-build.md`](../build/p4-projectly/ch26-build.md). If you haven't started P4 yet, read [`build/p4-projectly/00-spec.md`](../build/p4-projectly/00-spec.md) and [`01-setup.md`](../build/p4-projectly/01-setup.md) first.
+
 ➡️ Next: `ch27-service-providers.md`

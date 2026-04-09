@@ -53,3 +53,5 @@ Beautiful dashboard at `/horizon`.
 
 1. Install Telescope on your blog project.
 2. Browse the dashboard and inspect a few requests.
+
+🔨 **Build it for real:** Apply this chapter to project P4 — see [`build/p4-projectly/ch41-build.md`](../build/p4-projectly/ch41-build.md).

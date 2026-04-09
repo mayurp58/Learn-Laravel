@@ -113,4 +113,6 @@ In CI you wrote joins manually for everything. Eloquent does it cleanly with `wi
 2. In tinker, create a user, give them 5 posts, give each post 3 comments and 2 tags.
 3. Try: `$user->posts->first()->comments`, `$user->posts->first()->tags->pluck('name')`.
 
+🔨 **Build it for real:** Apply this chapter to project P2 — see [`build/p2-blog/ch16-build.md`](../build/p2-blog/ch16-build.md).
+
 ➡️ Next: `ch17-eager-loading.md`

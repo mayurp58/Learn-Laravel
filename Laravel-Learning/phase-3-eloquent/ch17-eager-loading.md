@@ -68,4 +68,6 @@ Now any lazy load throws an error in development. Forces you to write `with()`.
 2. What does `Post::with('user')->get()` do under the hood?
 3. How would you eager-load `comments.user`?
 
+🔨 **Build it for real:** Apply this chapter to project P2 — see [`build/p2-blog/ch17-build.md`](../build/p2-blog/ch17-build.md). This is the chapter where you'll *see* the N+1 problem in your real app and fix it. Don't skip it.
+
 ➡️ Next: `ch18-query-builder.md`

@@ -69,4 +69,6 @@ In a Blade view:
 2. Register a user, log in, log out, reset password.
 3. Read `LoginRequest::authenticate()` in the generated code. Understand it line by line.
 
+🔨 **Build it for real:** Apply this chapter to project P3 (Blog API) — see [`build/p3-blog-api/ch21-build.md`](../build/p3-blog-api/ch21-build.md). P3 *extends* P2's blog (same repo, new branch), not a fresh project. Read [`build/p3-blog-api/00-spec.md`](../build/p3-blog-api/00-spec.md) and [`01-setup.md`](../build/p3-blog-api/01-setup.md) first.
+
 ➡️ Next: `ch22-sanctum.md`

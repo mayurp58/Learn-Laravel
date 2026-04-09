@@ -166,4 +166,6 @@ Then:
 3. What is route model binding?
 4. What's the difference between `web.php` and `api.php`?
 
+🔨 **Build it for real:** Apply this chapter to project P1 — see [`build/p1-bookmarks/ch06-build.md`](../build/p1-bookmarks/ch06-build.md).
+
 ➡️ Next: `ch07-controllers.md`

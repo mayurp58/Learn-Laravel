@@ -99,4 +99,6 @@ CI3 had "hooks" (`pre_controller`, `post_controller`, etc.) and that was about i
 2. What's the difference between global and route-level middleware?
 3. Why can't you call `session()` in `routes/api.php` by default?
 
+🔨 **Build it for real:** Apply this chapter to project P1 (Bookmark Manager) — see [`build/p1-bookmarks/ch05-build.md`](../build/p1-bookmarks/ch05-build.md). If you haven't started P1 yet, read [`build/p1-bookmarks/00-spec.md`](../build/p1-bookmarks/00-spec.md) and [`01-setup.md`](../build/p1-bookmarks/01-setup.md) first.
+
 ➡️ Next: `ch06-routing.md`

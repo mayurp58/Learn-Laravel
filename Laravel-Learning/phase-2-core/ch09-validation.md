@@ -155,4 +155,6 @@ CI's form_validation library required loading, manual config, and was clunky. La
 2. What does `authorize()` do in a Form Request?
 3. How do you ignore the current record in a `unique` rule?
 
+🔨 **Build it for real:** Apply this chapter to project P1 — see [`build/p1-bookmarks/ch09-build.md`](../build/p1-bookmarks/ch09-build.md).
+
 ➡️ Next: `ch10-responses.md`

@@ -91,4 +91,6 @@ $this->assertDatabaseCount('posts', 5);
 
 Write three feature tests for your blog: list, create (authed), delete (authed + own post only).
 
+🔨 **Build it for real:** Apply this chapter to project P4 — see [`build/p4-projectly/ch37-build.md`](../build/p4-projectly/ch37-build.md).
+
 ➡️ Next: `ch38-feature-vs-unit.md`

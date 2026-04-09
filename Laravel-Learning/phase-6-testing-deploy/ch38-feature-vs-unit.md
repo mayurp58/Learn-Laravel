@@ -88,4 +88,6 @@ Write a test that:
 2. Hits `POST /api/posts`
 3. Asserts the post was created and a `NotifyFollowers` job was dispatched
 
+🔨 **Build it for real:** Apply this chapter to project P4 — see [`build/p4-projectly/ch38-build.md`](../build/p4-projectly/ch38-build.md).
+
 ➡️ Next: `ch39-quality.md`

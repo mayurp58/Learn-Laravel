@@ -65,4 +65,6 @@ $notification->markAsRead();
 
 Build a `PostCommented` notification that emails the post author when someone comments on their post.
 
+🔨 **Build it for real:** Apply this chapter to project P4 — see [`build/p4-projectly/ch32-build.md`](../build/p4-projectly/ch32-build.md).
+
 ➡️ Next: `ch33-mail.md`

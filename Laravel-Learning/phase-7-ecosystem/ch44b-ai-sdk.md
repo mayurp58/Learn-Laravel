@@ -163,4 +163,6 @@ There is no CI equivalent. This is one of the cleanest examples of why Laravel k
 3. How do you test code that uses `AI::prompt()` without spending money?
 4. What's the relationship between embeddings and `whereVectorSimilarTo()`?
 
+🔨 **Build it for real:** Apply this chapter to project P4 — see [`build/p4-projectly/ch44b-build.md`](../build/p4-projectly/ch44b-build.md). This is the last build file in the course. After this, wrap up P4 with [`build/p4-projectly/99-finish.md`](../build/p4-projectly/99-finish.md).
+
 ➡️ Next: `phase-8-job-prep/ch45-resume.md`

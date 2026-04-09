@@ -99,4 +99,6 @@ Livewire is HUGE in the Laravel ecosystem right now. Many Laravel-only shops use
 
 Build a Livewire `TodoList` component: add, complete, delete. No page reloads.
 
+🔨 **Build it for real:** Apply this chapter to project P4 — see [`build/p4-projectly/ch42-build.md`](../build/p4-projectly/ch42-build.md). This chapter builds the kanban task board, the moment Projectly starts feeling like a real product.
+
 ➡️ Next: `ch43-inertia.md`

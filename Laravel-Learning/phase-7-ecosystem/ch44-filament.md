@@ -79,4 +79,6 @@ Many freelancers and agencies build entire client projects with Filament because
 
 Install Filament on your blog project. Generate a `PostResource` and a `CategoryResource`. Try filtering, sorting, bulk delete.
 
-➡️ **End of Phase 7.** Build **Mini Project 3: SaaS Starter** (`projects/03-saas-starter.md`). Then Phase 8.
+🔨 **Build it for real:** Apply this chapter to project P4 — see [`build/p4-projectly/ch44-build.md`](../build/p4-projectly/ch44-build.md).
+
+➡️ **End of Phase 7 (almost).** One more chapter: `ch44b-ai-sdk.md` — the Laravel 13 AI SDK headline feature. Don't skip it.
