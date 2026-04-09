@@ -74,6 +74,49 @@ public int $timeout = 120;
 public int $backoff = 60;   // seconds between retries
 ```
 
+### Laravel 13: job attributes
+
+In Laravel 13 you can express the same options as PHP attributes on the class — useful when you want the configuration to read declaratively:
+
+```php
+use Illuminate\Queue\Attributes\{Tries, Backoff, Timeout, FailOnTimeout};
+
+#[Tries(3)]
+#[Backoff(60)]
+#[Timeout(120)]
+#[FailOnTimeout]
+class ProcessVideo implements ShouldQueue
+{
+    use Queueable;
+    // ...
+}
+```
+
+### Laravel 13: queue routing by class
+
+Instead of calling `->onQueue('videos')` at every dispatch site, L13 lets you centralize routing rules in a service provider:
+
+```php
+use Illuminate\Support\Facades\Queue;
+
+Queue::route(ProcessVideo::class, connection: 'redis', queue: 'videos');
+Queue::route(SendInvoice::class,  connection: 'sqs',   queue: 'billing');
+```
+
+Now `ProcessVideo::dispatch($video)` automatically lands on the `videos` queue on the `redis` connection. This keeps dispatch sites clean and makes infrastructure routing a single source of truth.
+
+### Laravel 13: `JobAttempted` event change
+
+If you listen to the `JobAttempted` event, note that the `$exceptionOccurred` boolean property has been replaced with `$exception` (an object or `null`). Update any listener code accordingly:
+
+```php
+// Old (L12)
+if ($event->exceptionOccurred) { ... }
+
+// New (L13)
+if ($event->exception !== null) { ... }
+```
+
 ## Hands-on Task
 
 1. Set `QUEUE_CONNECTION=database` in `.env`.

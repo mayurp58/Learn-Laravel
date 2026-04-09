@@ -94,6 +94,21 @@ Bind parameters when raw:
 ->whereRaw('total > ?', [100])
 ```
 
+## Laravel 13: vector / semantic search (pgvector)
+
+If your DB is PostgreSQL with the `pgvector` extension installed, Laravel 13 adds native query-builder support for vector similarity search — the building block of semantic search and RAG (retrieval-augmented generation):
+
+```php
+$documents = DB::table('documents')
+    ->whereVectorSimilarTo('embedding', 'Best wineries in Napa Valley')
+    ->limit(10)
+    ->get();
+```
+
+Laravel will generate the embedding for the query string (using the configured AI provider — see the Laravel AI SDK chapter), perform the cosine/L2 similarity search against the `embedding` column, and return rows ordered by relevance. This makes "search by meaning, not keywords" a one-liner.
+
+Caveat: this requires PostgreSQL + pgvector. MySQL/SQLite don't support it.
+
 ## CI comparison
 
 CI's Query Builder is the closest analogue. Laravel's is more fluent and slightly more powerful, but the concepts transfer directly.

@@ -1,0 +1,15 @@
+{
+    "name": "wcities/php-sandbox",
+    "autoload": {
+        "psr-4": {
+            "Wcities\\PhpSandbox\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mayurwcities",
+            "email": "mayur@wcities.com"
+        }
+    ],
+    "require": {}
+}

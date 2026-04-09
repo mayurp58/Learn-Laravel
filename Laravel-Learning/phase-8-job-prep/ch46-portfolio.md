@@ -52,7 +52,7 @@ One-line description.
 - Feature 2
 
 ## Tech Stack
-- Laravel 11 (PHP 8.4)
+- Laravel 13 (PHP 8.3+)
 - MySQL 8
 - Redis (queues + cache)
 - Filament (admin)

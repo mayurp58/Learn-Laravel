@@ -1,6 +1,8 @@
 # Chapter 37 — Testing Basics with Pest
 
-Laravel ships with PHPUnit. Pest is a more elegant wrapper on top — Laravel 11 uses Pest by default in new installs. Both work; we'll use Pest.
+Laravel ships with PHPUnit. Pest is a more elegant wrapper on top — modern Laravel uses Pest by default in new installs. Both work; we'll use Pest.
+
+> **Laravel 13 note:** New L13 installs ship with **Pest 4** and **PHPUnit 12**. Pest 4 introduces architectural testing improvements and faster parallel runs; the test syntax shown below is unchanged.
 
 ## Why test
 

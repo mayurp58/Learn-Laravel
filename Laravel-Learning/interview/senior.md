@@ -26,4 +26,14 @@
 24. **How do you secure a Laravel API against abuse?**
 25. **Design a Twitter-like timeline. Start with the schema and end with the cache strategy.**
 
+### Laravel 13–specific (added 2026)
+
+26. **What changed in the CSRF middleware in Laravel 13, and why is the new origin verification useful?** (Answer should mention the rename to `PreventRequestForgery` and the `Sec-Fetch-Site` check as defence-in-depth on top of token validation.)
+27. **Walk through the Laravel AI SDK. How would you build a "summarize this document" feature end-to-end — controller, queue, storage, testing?**
+28. **What problem does `Queue::route()` solve compared to calling `->onQueue()` at every dispatch site?** (Centralized routing, single source of truth for infra topology, easier to change.)
+29. **When would you use first-party JSON:API Resources vs. plain `JsonResource`?** (JSON:API for spec-compliant clients / public APIs; plain for internal/mobile.)
+30. **Explain how `whereVectorSimilarTo()` works under the hood. What infrastructure do you need, and what's the difference between cosine and L2 similarity?**
+31. **You're upgrading a production app from L12 to L13. Walk through the breaking-change checklist.** (CSRF rename, `serializable_classes` cache config, `JobAttempted` event, `Container::call()` nullable defaults, cache prefix / session cookie naming, Pest 4 / PHPUnit 12 deps, PHP 8.3 floor.)
+32. **What's the trade-off of putting middleware in PHP attributes vs. in route definitions?** (Locality vs. discoverability — attributes keep rules next to actions but hide them from `route:list` readers.)
+
 These are open-ended on purpose. The goal is to *talk* through trade-offs, not give a single right answer. Practice with a friend or rubber duck.

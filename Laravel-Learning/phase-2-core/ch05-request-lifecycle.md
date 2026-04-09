@@ -75,7 +75,7 @@ Knowing this helps you answer:
 php artisan route:list -v
 ```
 
-The `-v` shows you every middleware applied to every route. Look at it. The `web` group has `EncryptCookies`, `StartSession`, `VerifyCsrfToken`, and more. The `api` group is much shorter.
+The `-v` shows you every middleware applied to every route. Look at it. The `web` group has `EncryptCookies`, `StartSession`, `PreventRequestForgery` (the CSRF middleware — renamed from `VerifyCsrfToken` in Laravel 13, and now origin-aware via the `Sec-Fetch-Site` header), and more. The `api` group is much shorter.
 
 ## CodeIgniter comparison
 
@@ -91,7 +91,7 @@ CI3 had "hooks" (`pre_controller`, `post_controller`, etc.) and that was about i
    ```
 2. Visit http://127.0.0.1:8000/lifecycle in your browser. Confirm.
 3. Run `php artisan route:list` — find your new route.
-4. Read `bootstrap/app.php`. This is where Laravel 11 wires middleware and exception handling. Don't change anything yet — just observe.
+4. Read `bootstrap/app.php`. This is where Laravel 11+ (including L13) wires middleware and exception handling. Don't change anything yet — just observe.
 
 ## Self-check
 

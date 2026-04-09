@@ -91,6 +91,28 @@ class AdminController extends Controller
 }
 ```
 
+## Attribute-based middleware (Laravel 13)
+
+Laravel 13 lets you declare middleware directly on a controller class or method using PHP attributes — no need to register in routes or constructors:
+
+```php
+use Illuminate\Routing\Attributes\Middleware;
+use Illuminate\Routing\Attributes\Authorize;
+
+#[Middleware('auth')]
+class CommentController
+{
+    #[Middleware('subscribed')]
+    #[Authorize('create', [Comment::class, 'post'])]
+    public function store(Post $post)
+    {
+        // ...
+    }
+}
+```
+
+This is purely declarative — the framework reads the attributes when resolving the route. Use it when you want middleware/authorization rules to live next to the action they protect, instead of being scattered across `routes/web.php`. Both styles (route-level and attribute-level) coexist; pick whichever reads better for the controller in question.
+
 ## Built-in middleware you should know
 
 - `auth` — require authentication

@@ -27,7 +27,7 @@ A complete, text-based, mentor-style learning path designed for an experienced P
 | 4. Auth & APIs | 21–25 | Breeze, Sanctum, policies, REST APIs | — |
 | 5. Advanced | 26–36 | Container, providers, queues, events, cache, mail | — |
 | 6. Testing & Deploy | 37–41 | Pest, feature tests, deployment | — |
-| 7. Ecosystem | 42–44 | Livewire, Inertia, Filament | SaaS Starter |
+| 7. Ecosystem | 42–44b | Livewire, Inertia, Filament, AI SDK (L13) | SaaS Starter |
 | 8. Job Prep | 45–49 | Resume, portfolio, interviews, negotiation | — |
 
 ---
@@ -65,3 +65,19 @@ We will use **MAMP's PHP** for command-line work and **Composer** to install Lar
 Start with `00-how-to-use.md`, then go to `phase-1-foundations/ch01-composer-autoloading.md`.
 
 Good luck. Let's make you a Laravel developer.
+
+---
+
+## Target Versions (Laravel 13)
+
+This material targets **Laravel 13** (released March 17, 2026). Key dependency floors:
+
+| Package            | Version |
+|--------------------|---------|
+| `php`              | 8.3 – 8.5 |
+| `laravel/framework`| `^13.0` |
+| `laravel/tinker`   | `^3.0`  |
+| `pestphp/pest`     | `^4.0`  |
+| `phpunit/phpunit`  | `^12.0` |
+
+L13 is a small upgrade from L12 (no skeleton overhaul). The main breaking change to be aware of: the CSRF middleware was renamed from `VerifyCsrfToken` to `PreventRequestForgery` and is now origin-aware via `Sec-Fetch-Site`. See `phase-2-core/ch12-sessions.md` for details, or `resources/laravel-13-upgrade.md` for a complete L12 → L13 upgrade cheat sheet.

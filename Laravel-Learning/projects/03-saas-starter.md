@@ -25,7 +25,7 @@ A simple "Project Management" SaaS where teams sign up, invite members, and mana
 
 ## Tech Stack
 
-- Laravel 11 / PHP 8.4
+- Laravel 13 / PHP 8.3+
 - MySQL
 - Redis (cache + queues)
 - Sanctum (API)
@@ -88,6 +88,16 @@ protected static function booted(): void
 - ✅ Sentry or Bugsnag wired up
 - ✅ A "system design" section in the README explaining your architecture choices
 - ✅ Conventional commits
+
+## Optional differentiator: an AI feature (Laravel 13)
+
+Since you're targeting Laravel 13, add **one** small AI-powered feature using the first-party AI SDK. It takes a weekend and dramatically separates your portfolio from the standard "CRUD + auth" SaaS clones. Pick one:
+
+- **Smart task summaries** — when a project has 20+ tasks, an "AI summary" button that calls `AI::prompt(...)` on a queue and stores the result. Show it on the project dashboard.
+- **Semantic task search** — generate embeddings on task creation (queued), store in pgvector, expose `/search?q=...` using `whereVectorSimilarTo()`.
+- **Auto-generated stand-up reports** — daily scheduled job that calls the AI SDK with each user's completed tasks and emails them a Slack-style stand-up.
+
+Whichever you pick: dispatch the AI call to a queue (never inline in a request), use `AI::fake()` in tests, and write 1–2 paragraphs in the README explaining your prompt design and cost controls. That README section is the part interviewers will quote back to you.
 
 ## What you'll be able to say in interviews
 

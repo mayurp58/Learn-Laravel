@@ -19,13 +19,13 @@ Email · Phone · LinkedIn · GitHub · Portfolio URL
 SUMMARY
 Senior PHP developer with 8+ years building production web applications, REST APIs,
 and database-driven systems. Extensive CodeIgniter background; now actively building
-with Laravel 11, Eloquent, Sanctum, Livewire, and Filament. Strong fundamentals in
+with Laravel 13, Eloquent, Sanctum, Livewire, and Filament. Strong fundamentals in
 OOP, design patterns, REST, and SQL. Comfortable across the full stack and the
 deployment pipeline.
 
 CORE SKILLS
 Languages: PHP 8.x, JavaScript, SQL, HTML/CSS
-Frameworks: Laravel (11), CodeIgniter (3/4), Livewire, Inertia, Filament
+Frameworks: Laravel (13), CodeIgniter (3/4), Livewire, Inertia, Filament
 Database: MySQL, PostgreSQL, Redis
 Auth/APIs: REST, JWT, Sanctum, OAuth2 (Passport)
 Tools: Composer, Git, Docker, GitHub Actions, Forge, Postman, PHPUnit/Pest
@@ -39,11 +39,11 @@ EXPERIENCE
 - (... etc)
 
 PROJECTS (this section matters most for the switch)
-- Multi-tenant SaaS Starter — Laravel 11 + Sanctum + Filament + Redis queues + Pest tests.
+- Multi-tenant SaaS Starter — Laravel 13 + Sanctum + Filament + Redis queues + Pest 4 tests.
   github.com/you/saas-starter   live demo: ...
-- Blog Platform — Laravel 11 + Livewire + MySQL. Full CRUD, comments, tags, eager loading.
+- Blog Platform — Laravel 13 + Livewire + MySQL. Full CRUD, comments, tags, eager loading.
   github.com/you/blog
-- Task Manager — Laravel 11 + Breeze. Auth, validation, policies.
+- Task Manager — Laravel 13 + Breeze. Auth, validation, policies.
   github.com/you/tasks
 
 EDUCATION

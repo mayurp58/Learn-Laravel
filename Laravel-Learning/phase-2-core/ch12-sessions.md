@@ -58,11 +58,13 @@ To exclude a route from CSRF (e.g., webhooks), in `bootstrap/app.php`:
 
 ```php
 ->withMiddleware(function (Middleware $middleware) {
-    $middleware->validateCsrfTokens(except: [
+    $middleware->preventRequestForgery(except: [
         'webhooks/*',
     ]);
 })
 ```
+
+> **Laravel 13 note:** The CSRF middleware is now `PreventRequestForgery` (was `VerifyCsrfToken` / `ValidateCsrfToken` in L12 and earlier). It still validates tokens, but additionally checks the `Sec-Fetch-Site` request header to verify origin — a defence-in-depth improvement. The fluent helper was renamed from `validateCsrfTokens()` to `preventRequestForgery()` to match.
 
 ## Cookies
 

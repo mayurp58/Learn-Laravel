@@ -88,6 +88,19 @@ $this->app->tag(['reports.csv', 'reports.pdf'], 'reports');
 $reports = $this->app->tagged('reports');
 ```
 
+## Laravel 13 gotcha: `Container::call()` and nullable defaults
+
+In Laravel 12 and earlier, if you used `Container::call()` with a closure that had a nullable type-hinted parameter with a default of `null`, the container would *still* try to resolve and inject an instance:
+
+```php
+// Laravel <= 12: returns a resolved Carbon instance, even though the default is null
+$container->call(function (?Carbon $date = null) {
+    return $date;
+});
+```
+
+Laravel 13 fixes this so that nullable defaults are respected — the call above now returns `null`. If you were relying on the old behavior (auto-injection despite a `null` default), you'll need to remove the default value or explicitly pass the dependency.
+
 ## Hands-on Task
 
 1. Create an interface `App\Contracts\Notifier` with a `send()` method.

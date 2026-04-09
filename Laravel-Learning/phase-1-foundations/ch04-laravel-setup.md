@@ -1,6 +1,6 @@
 # Chapter 4 — Installing Laravel and Touring the Project
 
-You have MAMP with PHP 8.4 and MySQL. Perfect — Laravel 11 needs PHP 8.2+, you're set.
+You have MAMP with PHP 8.4 and MySQL. Perfect — Laravel 13 requires **PHP 8.3+** (supports 8.3, 8.4, and 8.5), so you're set.
 
 ## Step 1: Make MAMP's PHP available in your terminal
 
@@ -86,7 +86,7 @@ hello-laravel/
 │   ├── Providers/        ← Service providers
 │   └── ...
 ├── bootstrap/            ← Framework bootstrap (rarely touched)
-│   └── app.php           ← App config (Laravel 11+)
+│   └── app.php           ← App config (Laravel 11+; still where middleware/exceptions live in L13)
 ├── config/               ← Config files (database, mail, cache, etc.)
 ├── database/
 │   ├── migrations/       ← DB schema migrations
