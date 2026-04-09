@@ -54,9 +54,9 @@ public function handle(Request $request, Closure $next)
 }
 ```
 
-## Registering middleware (Laravel 11+)
+## Registering middleware (Laravel 11+ / 13)
 
-In Laravel 11, middleware is registered in `bootstrap/app.php`:
+In Laravel 11+ (including L13), middleware is registered in `bootstrap/app.php`:
 
 ```php
 ->withMiddleware(function (Middleware $middleware) {
@@ -130,7 +130,7 @@ CI3 had hooks (`pre_controller`) which were a single global function. Laravel mi
 
 1. **Forgetting to call `$next($request)`** — your route will silently return null.
 2. **Putting business logic in middleware.** Middleware = cross-cutting concerns. Auth, logging, headers. Not "calculate discount."
-3. **Registering middleware in the wrong place.** In Laravel 11, it's `bootstrap/app.php`, not `app/Http/Kernel.php` (that file no longer exists).
+3. **Registering middleware in the wrong place.** In Laravel 11+ (and 13), it's `bootstrap/app.php`, not `app/Http/Kernel.php` (that file no longer exists).
 
 ## Hands-on Task
 
@@ -149,7 +149,7 @@ CI3 had hooks (`pre_controller`) which were a single global function. Laravel mi
 ## Self-check
 
 1. What does `$next($request)` do?
-2. Where do you register middleware in Laravel 11?
+2. Where do you register middleware in Laravel 13?
 3. Name three pieces of work that belong in middleware.
 
 ➡️ Next: `ch09-validation.md`

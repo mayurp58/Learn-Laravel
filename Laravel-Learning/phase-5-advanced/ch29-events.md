@@ -44,7 +44,7 @@ class SendWelcomeEmail
 }
 ```
 
-## Wiring (Laravel 11+)
+## Wiring (Laravel 11+ / 13)
 
 Auto-discovery happens when listener methods type-hint the event. You can also register manually in `EventServiceProvider`:
 

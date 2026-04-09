@@ -11,7 +11,7 @@ Add to your server's crontab:
 
 That's it. Laravel takes over.
 
-## Defining tasks (Laravel 11+)
+## Defining tasks (Laravel 11+ / 13)
 
 In `routes/console.php`:
 
